@@ -1,7 +1,29 @@
+.main-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.main-navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: $tablet-width) {
   .main-navigation__wrapper {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+  }
+
+  .main-navigation {
+    display: flex;
+  }
+
+  .main-navigation__toggle {
+    display: none;
   }
 }
